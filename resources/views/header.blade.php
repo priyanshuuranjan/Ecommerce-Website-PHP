@@ -5,13 +5,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Photography Website</title>
+    <title>Ecommerce website</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="script.js" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
 <style>
-   
+
 </style>
 
 <body>
@@ -22,8 +22,8 @@
             <ul id="navbar">
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="#product1">Features</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="About.html">About Us</a></li>
+                <li><a href="blog">Blog</a></li>
+                <li><a href="about">About Us</a></li>
                 <li><a href="blog.html">Contact</a></li>
                 <li>
                     <a href="cart.html"><i class="fa fa-duotone fa-bag-shopping"></i></a>

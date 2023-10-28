@@ -183,7 +183,7 @@
             Explore the world of adorable frames and cherish those precious
             moments with our innovative platform.
           </p>
-          <a href="index.html">Go to Home</a>
+          <a href="/">Go to Home</a>
         </div>
       </div>
     </div>
