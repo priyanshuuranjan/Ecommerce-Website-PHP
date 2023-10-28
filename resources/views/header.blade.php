@@ -1,27 +1,61 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Orders</a>
-                </li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-            </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-            <ul class="nav navbar-nav  navbar-right">
-                <li><a href="#">Cart(0)</i></a></li>
-            </ul>
+        /* Style for the navigation bar */
+        .navbar {
+            background-color: #889fca;
+            width: 100%;
+            height: 60px;
+            overflow: hidden;
+        }
+
+        /* Style for the navigation links */
+        .navbar a {
+            display: inline-block; /* Make the links appear horizontally */
+            color: white;
+            text-align: center;
+            padding: 22px 20px;
+          font-size: 25px;
+            text-decoration: none;
+        }
+
+        /* Style for the cart icon */
+        .cart-icon {
+            font-size: 24px;
+            vertical-align: middle; /* Align the cart icon vertically in the container */
+        }
+
+        /* Style for the cart icon container (adjust as needed) */
+        .cart-container {
+            float: right;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <a href="#">Home</a>
+            <a href="#">Order</a>
+        </div>
+        <div class="navbar-right">
+            <div class="cart-container">
+                <a href="#">
+                    <span class="cart-icon">&#x1F6D2;</span> <!-- You can use any cart icon here -->
+                </a>
+            </div>
         </div>
     </div>
-</nav>
+</body>
+</html>
