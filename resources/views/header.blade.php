@@ -1,61 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Bar</title>
-    <style>
-        /* Reset default styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Style for the navigation bar */
-        .navbar {
-            background-color: #889fca;
-            width: 100%;
-            height: 60px;
-            overflow: hidden;
-        }
-
-        /* Style for the navigation links */
-        .navbar a {
-            display: inline-block; /* Make the links appear horizontally */
-            color: white;
-            text-align: center;
-            padding: 22px 20px;
-          font-size: 25px;
-            text-decoration: none;
-        }
-
-        /* Style for the cart icon */
-        .cart-icon {
-            font-size: 24px;
-            vertical-align: middle; /* Align the cart icon vertically in the container */
-        }
-
-        /* Style for the cart icon container (adjust as needed) */
-        .cart-container {
-            float: right;
-            padding: 10px;
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
+<style>
+   
+</style>
+
 <body>
-    <div class="navbar">
-        <div class="navbar-left">
-            <a href="#">Home</a>
-            <a href="#">Order</a>
+    <section id="header">
+        <a href="cart.html"><img src="assets/blogo.png" class="logoo" alt="" /></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="#product1">Features</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="blog.html">Contact</a></li>
+                <li>
+                    <a href="cart.html"><i class="fa fa-duotone fa-bag-shopping"></i></a>
+                </li>
+            </ul>
         </div>
-        <div class="navbar-right">
-            <div class="cart-container">
-                <a href="#">
-                    <span class="cart-icon">&#x1F6D2;</span> <!-- You can use any cart icon here -->
-                </a>
-            </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-duotone fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
         </div>
-    </div>
+    </section>
+
+
+
+
+
 </body>
+
 </html>
