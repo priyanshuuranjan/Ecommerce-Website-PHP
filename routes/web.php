@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,4 @@ Route::get('/about', function () {
 
 
 Route::post('/login', [UserController::class, 'login']);
+Route::post('/login', [ProductController::class, 'login']);
