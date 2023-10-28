@@ -24,4 +24,4 @@ Route::get('/about', function () {
 
 
 Route::post('/login', [UserController::class, 'login']);
-Route::post('/login', [ProductController::class, 'login']);
+Route::get('/', [ProductController::class, 'login']);
