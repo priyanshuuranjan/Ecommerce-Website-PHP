@@ -42,7 +42,15 @@ class ProductSeeder extends Seeder
                 "description"=>"A fridge with much more feature",
                 "category"=>"fridge",
                 "gallery"=>"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFx-2-wTOcfr5at01ojZWduXEm5cZ-sRYPJA&usqp=CAU"
+            ],
+            [
+                'name'=>'google',
+                "price"=>"200",
+                "description"=>"google",
+                "category"=>"fridge",
+                "gallery"=>"https://drive.google.com/file/d/1kU_CouKt_mJNbvOdhtT9hufNaHZIoYvR/view?usp=drive_link"
              ]
         ]);
     }
 }
+
