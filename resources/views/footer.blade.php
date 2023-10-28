@@ -10,7 +10,7 @@
 
 
 <body>
-    <section id="newsletter" class="section-p1 section-m1">
+    <section id="newsletter" class="section-p1 section-m1" style="clear: both">
         <div class="newstext">
             <h4>Sign Up For Newsletters</h4>
             <p>

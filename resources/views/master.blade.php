@@ -42,8 +42,11 @@
     }
 
     .slider-text {
-        background-color: #35443585 !important;
-    }
+    background-color: #35443585 !important;
+   margin-left: 200px;
+}
+
+
 
     .trending-image {
         height: 100px;

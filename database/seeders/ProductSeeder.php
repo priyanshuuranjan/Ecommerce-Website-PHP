@@ -16,41 +16,35 @@ class ProductSeeder extends Seeder
         //
         DB::table('products')->insert([
             [
-                'name'=>'Oppo mobile',
-                "price"=>"300",
-                "description"=>"A smartphone with 8gb ram and much more feature",
-                "category"=>"mobile",
-                "gallery"=>"https://assetscdn1.paytm.com/images/catalog/product/M/MO/MOBOPPO-A52-6-GFUTU6297453D3D253C/1592019058170_0..png"
+                'name'=>'DAP',
+                "price"=>"1500",
+                "description"=>"The composition of DAP is 18% Nitrogen and P2O5 46%.",
+                "category"=>"fertilizer",
+                "gallery"=>"https://t4.ftcdn.net/jpg/00/87/62/49/240_F_87624930_7n7NgLCFHff7IGr85DCgOcE2aPunov2m.jpg"
             ],
             [
-                'name'=>'Panasonic Tv',
+                'name'=>'Calcium',
                 "price"=>"400",
-                "description"=>"A smart tv with much more feature",
-                "category"=>"tv",
-                "gallery"=>"https://i.gadgets360cdn.com/products/televisions/large/1548154685_832_panasonic_32-inch-lcd-full-hd-tv-th-l32u20.jpg"
+                "description"=>"It contains 15,5% nitrogen (N) and 26,5% calcium oxide",
+                "category"=>"fertilizer",
+                "gallery"=>"https://t4.ftcdn.net/jpg/00/85/49/51/240_F_85495118_AUZZAJfHLdqctF8Kiazdy3hGxWlBo1vo.jpg"
             ],
             [
-                'name'=>'Soni Tv',
+                'name'=>'Soil Fertilizer',
                 "price"=>"500",
-                "description"=>"A tv with much more feature",
-                "category"=>"tv",
-                "gallery"=>"https://4.imimg.com/data4/PM/KH/MY-34794816/lcd-500x500.png"
+                "description"=>"Contains microbes which enhance the soil properties",
+                "category"=>"fertilizer",
+                "gallery"=>"https://m.media-amazon.com/images/I/61fUoGkNdHL._AC_UL320_.jpg"
             ],
             [
-                'name'=>'LG fridge',
+                'name'=>' Seaweed Tonic ',
                 "price"=>"200",
-                "description"=>"A fridge with much more feature",
-                "category"=>"fridge",
-                "gallery"=>"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFx-2-wTOcfr5at01ojZWduXEm5cZ-sRYPJA&usqp=CAU"
+                "description"=>": Improves seed germination and increases root growth development",
+                "category"=>"spray",
+                "gallery"=>"https://m.media-amazon.com/images/I/71Z4NWcw4cL._AC_UL320_.jpg"
             ],
-            [
-                'name'=>'google',
-                "price"=>"200",
-                "description"=>"google",
-                "category"=>"fridge",
-                "gallery"=>"https://drive.google.com/file/d/1kU_CouKt_mJNbvOdhtT9hufNaHZIoYvR/view?usp=drive_link"
-             ]
         ]);
     }
 }
+
 
