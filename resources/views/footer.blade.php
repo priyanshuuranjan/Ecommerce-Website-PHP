@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Fotter</h1>
+    <h1>Fotter.</h1>
 </body>
 
 </html>
