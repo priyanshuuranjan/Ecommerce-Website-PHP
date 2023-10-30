@@ -8,6 +8,8 @@ use App\Models\Product;
 use App\Models\Cart;
 
 
+use Session;
+
 class ProductController extends Controller
 {
     function index()
@@ -41,4 +43,9 @@ class ProductController extends Controller
     //  return Cart::where('user_id',$userId)->count();
     // }
 
+   static function cartItem()
+    {
+        $userId = Session::get('user')['id'];
+        return Cart::where('user_id', $userId)->count();
+    }
 }
