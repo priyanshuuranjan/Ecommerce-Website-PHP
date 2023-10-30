@@ -11,14 +11,14 @@ class ProductController extends Controller
 {
     function index()
     {
-        $data = Product::all();
-        return view('product',['products' => $data]);
+        $data= Product::all();
+
+       return view('product',['products'=>$data]);
     }
     function detail($id)
     {
-        // $data =Product::find($id);
-        // return view('detail',['product'=>$data]);
-        return Product::find($id);
+        $data =Product::find($id);
+        return view('detail',['product'=>$data]);
     }
 
 }
