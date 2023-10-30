@@ -63,6 +63,7 @@
 
     .detail-img {
         height: 200px;
+        margin-top: 140px;
     }
 
     .search-box {
