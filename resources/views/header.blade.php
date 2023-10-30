@@ -13,7 +13,7 @@ if (Session::has('user')) {
 
     <div>
         <ul id="navbar">
-            <li><a class="active" href="index.html">Home</a></li>
+            <li><a class="active" href="/">Home</a></li>
             <li><a href="#product1">Features</a></li>
             <li><a href="blog">Blog</a></li>
             <li><a href="about">About Us</a></li>
