@@ -25,12 +25,7 @@ class ProductController extends Controller
         $data = Product::find($id);
         return view('detail', ['product' => $data]);
     }
-    function search(Request $req)
-    {
-        $data = Product::where('name', 'like', '%' . $req->input('query') . '%')
-            ->get();
-        return view('search', ['products' => $data]);
-    }
+
     function addToCart(Request $req)
     {
         if ($req->session()->has('user')) {
@@ -38,6 +33,7 @@ class ProductController extends Controller
             $cart->user_id = $req->session()->get('user')['id'];
             $cart->product_id = $req->product_id;
             $cart->save();
+
             return redirect('/');
         } else {
             return redirect('/login');
@@ -59,11 +55,13 @@ class ProductController extends Controller
 
         return view('cartlist', ['products' => $products]);
     }
+
     function removeCart($id)
     {
         Cart::destroy($id);
         return redirect('cartlist');
     }
+
     function orderNow()
     {
         $userId = Session::get('user')['id'];
@@ -74,6 +72,7 @@ class ProductController extends Controller
 
         return view('ordernow', ['total' => $total]);
     }
+
     function orderPlace(Request $req)
     {
         $userId = Session::get('user')['id'];
@@ -99,7 +98,6 @@ class ProductController extends Controller
             ->join('products', 'orders.product_id', '=', 'products.id')
             ->where('orders.user_id', $userId)
             ->get();
-
         return view('myorders', ['orders' => $orders]);
     }
 }
