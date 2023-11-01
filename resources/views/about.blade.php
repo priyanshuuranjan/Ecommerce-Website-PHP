@@ -194,7 +194,7 @@
         </div>
         <div class="about-container">
             <div class="image-container">
-                <img src="assets/priyanshu formal.jpg" alt="" />
+                <img src="/profile3.jpg" alt="" />
             </div>
 
             <div class="text-container">
