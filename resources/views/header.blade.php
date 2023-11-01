@@ -16,7 +16,7 @@ if (Session::has('user')) {
             <li><a class="active" href="/">Home</a></li>
             <li><a href="/myorders">Orders</a></li>
             <li><a href="blog">Blog</a></li>
-            <li><a href="about">About Us</a></li>
+            <li><a href="about">About Me</a></li>
             <li><a href="blog.html">Contact</a></li>
             <li>
                 <a href="/cartlist"><i class="fa fa-duotone fa-bag-shopping">{{ $total }}</i></a>
