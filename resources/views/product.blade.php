@@ -35,7 +35,15 @@
             </a>
         </div>
         <div class="trending-wrapper">
-            <h2 style="text-align: center; margin-top:40px; margin-bottom:40px;">Products</h2>
+            <section id="newsletter" class="section-p1 section-m1" style="clear: both">
+                <div style="text-align: center; margin-left: 60em;">
+                    <p style="font-size: 30px; margin-bottom:40px; margin-top:40px;">
+                        <span>Products</span><br>
+                    </p>
+                </div>
+
+
+            </section>
             @foreach ($products as $item)
                 <div class="trening-item">
                     <a href="detail/{{ $item['id'] }}">
