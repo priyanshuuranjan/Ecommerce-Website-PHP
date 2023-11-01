@@ -122,11 +122,19 @@ class ProductSeeder extends Seeder
             ],
             [
                 'name' => 'Potash Meal',
-                "price" => "188",
+                "price" => "355",
                 "description" => "Potash Meal is a natural and organic fertilizer, made by processing agricultural waste, to achieve a high level of organic available Potassium",
                 "category" => "fertilizer",
-                "gallery" => "https://m.media-amazon.com/images/I/611SU6W3vML._SX679_.jpg"
+                "gallery" => "https://m.media-amazon.com/images/I/516qY1aa3uL._SX522_.jpg"
             ],
+            [
+                'name' => 'Organic Mixture',
+                "price" => "499",
+                "description" => "Grow up to 2X bigger plants than regular potting soil or red soil",
+                "category" => "fertilizer",
+                "gallery" => "https://m.media-amazon.com/images/I/810DKq9syML._SX679_.jpg"
+            ],
+
 
 
         ]);
