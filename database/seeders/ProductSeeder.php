@@ -43,6 +43,27 @@ class ProductSeeder extends Seeder
                 "category"=>"spray",
                 "gallery"=>"https://m.media-amazon.com/images/I/71Z4NWcw4cL._AC_UL320_.jpg"
             ],
+            [
+                'name'=>'NPK',
+                "price"=>"400",
+                "description"=>"Improves Size of Flowers, Fruits and Vegetables.",
+                "category"=>"spray",
+                "gallery"=>"https://m.media-amazon.com/images/I/61d02TxNGPL._SX522_.jpg"
+            ],
+            [
+                'name'=>'Babique Dap',
+                "price"=>"80",
+                "description"=>"Water-soluble helps the plant set buds and flowers",
+                "category"=>"fertilizer",
+                "gallery"=>"https://m.media-amazon.com/images/I/71xBf6iUG9L._SX569_.jpg"
+            ],
+            [
+                'name'=>'Urban Gardens',
+                "price"=>"199",
+                "description"=>" It provides nutrient supplementation to plants",
+                "category"=>"spray",
+                "gallery"=>"https://m.media-amazon.com/images/I/41gL2EO0M1L._SX679_.jpg"
+            ],
         ]);
     }
 }
