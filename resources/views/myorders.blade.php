@@ -3,7 +3,13 @@
     <div class="custom-product">
         <div class="col-sm-10">
             <div class="trending-wrapper">
-                <h4>my orders </h4>
+                <h2 style="text-align: center;">
+                    <a href="/" style="font-size: 24px; text-decoration: none; color: #7089b2; ">
+                        <i class="fa-solid fa-arrow-left fa-bounce fa-2xl" style="color: #385d9f;"></i>Go Back
+                    </a>
+                    My orders
+                </h2>
+
                 @foreach ($orders as $item)
                     <div class=" row searched-item cart-list-devider">
                         <div class="col-sm-3">
