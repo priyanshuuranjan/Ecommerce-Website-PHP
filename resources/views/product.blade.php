@@ -1,50 +1,71 @@
 @extends('master')
 @section('content')
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fertilizer Shop</title>
-    <style>
-        .trending-wrapper {
-            text-align: center;
-            margin: 20px; /* Adjust margin as needed */
-            padding: 20px; /* Adjust padding as needed */
-        }
+    <!DOCTYPE html>
+    <html lang="en">
 
-        #newsletter {
-            text-align: center;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Fertilizer Shop</title>
 
-        #newsletter p {
-            font-size: 30px;
-            margin-bottom: 40px;
-            margin-top: 40px;
-        }
+        <style>
+            .trending-wrapper {
+                text-align: center;
+                margin: 20px;
+                padding: 20px;
+            }
 
-        .trending-item {
-            display: inline-block;
-            margin: 10px; /* Adjust margin between items as needed */
-            border: 1px solid #ccc;
-            padding: 10px; /* Adjust padding as needed */
-            text-align: center;
-        }
+            #newsletter {
+                text-align: center;
+            }
 
-        .trending-image {
-            max-width: 100%;
-            height: auto;
-        }
+            #newsletter p {
+                font-size: 30px;
+                margin-bottom: 40px;
+                margin-top: 40px;
+            }
 
-        h3 {
-            font-size: 20px;
-            margin: 10px 0; /* Adjust margin as needed */
-        }
-    </style>
+            .trending-item {
+                display: inline-block;
+                margin: 10px;
+                border: 1px solid #ccc;
+                padding: 10px;
+                text-align: center;
+                transition: transform 0.2s;
+            }
 
-</head>
-<body>
+            .trending-item:hover {
+                transform: scale(1.4);
+            }
+
+            .trending-image {
+                max-width: 200px;
+                height: auto;
+                margin: 20px;
+                transition: transform 0.2s;
+            }
+
+            .trending-image:hover {
+                transform: scale(1.4);
+            }
+
+            h3 {
+                font-size: 25px;
+                margin: 10px 0;
+                color: #7089b2;
+                transition: color 0.2s;
+            }
+
+            .trending-item:hover h3 {
+                color: #53d1ab;
+                text-decoration: none;
+            }
+        </style>
+
+    </head>
+
+    <body>
 
         <div class="custom-product">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -104,6 +125,5 @@
         </div>
         </div>
     @endsection
-
 </body>
 </html>
