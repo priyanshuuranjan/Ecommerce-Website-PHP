@@ -9,7 +9,7 @@ if (Session::has('user')) {
 
 
 <section id="header">
-    <a href="cart.html"><img src="assets/blogo.png" class="logoo" alt="" /></a>
+    <a href="/"> <img src="/mylogo2.png" class="logoo" alt=""/></a>
 
     <div>
         <ul id="navbar">
