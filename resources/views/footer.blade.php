@@ -50,10 +50,9 @@
         </div>
         <div class="col">
             <h4><strong>My Account</strong></h4>
-            <a href="error.html">Sign In</a>
-            <a href="error.html">View Cart</a>
-            <a href="error.html">My Wishlist</a>
-            <a href="error.html">Track My Order</a>
+            <a href="/login">Sign In</a>
+            <a href="/cartlist">View Cart</a>
+            <a href="/myorders">Track My Order</a>
             <a href="error.html">Help Me</a>
         </div>
         <div class="col install">
