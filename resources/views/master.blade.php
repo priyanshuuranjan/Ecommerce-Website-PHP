@@ -60,7 +60,7 @@
     }
 
     .detail-img {
-        height: 200px;
+        height: 240px;
         margin-top: 140px;
     }
 
@@ -75,8 +75,6 @@
     }
 
     // navbar css
-
-
     @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 
     .logoo {
