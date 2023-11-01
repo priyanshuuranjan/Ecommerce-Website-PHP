@@ -63,11 +63,11 @@
             <h4>Install App</h4>
             <p>From App Store or Google Play</p>
             <div class="row">
-                <img src="assets/pay/app.jpg" alt="" />
-                <img src="assets/pay/play.jpg" alt="" />
+                <img src="app.jpg" alt="" />
+                <img src="play.jpg" alt="" />
             </div>
             <p>Secured payment Gateways</p>
-            <img src="assets/pay/pay.png" alt="" />
+            <img src="pay.png" alt="" />
         </div>
         <div class="copyright">
             <p>Copyright © Priyanshu Singh 2023</p>
