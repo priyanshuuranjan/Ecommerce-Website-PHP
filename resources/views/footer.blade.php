@@ -14,7 +14,7 @@
         <div style="text-align: center; margin-left: 60em;">
             <p style="font-size: 20px;">
                 <span>Thank You,</span><br>
-                Do Visit Us Again
+                Do Visit Us Again.
             </p>
         </div>
 
@@ -44,8 +44,8 @@
             <h4><strong>About</strong></h4>
             <a href="/about">About us</a>
             <a href="/myorders">Delivery Information</a>
-            <a href="error.html">Privacy Policy</a>
-            <a href="error.html">Term & Conditions</a>
+            <a href="/error">Privacy Policy</a>
+            <a href="/error">Term & Conditions</a>
             <a href="/contect">Contect Us</a>
         </div>
         <div class="col">
