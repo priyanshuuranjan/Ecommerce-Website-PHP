@@ -115,10 +115,17 @@ class ProductSeeder extends Seeder
             ],
             [
                 'name' => 'Water Spray',
-                "price" => "279",
+                "price" => "379",
                 "description" => "The Kids Watering Can Spray Bottle is perfect for getting the little ones out and about in the garden, featuring a traditional watering can head and spray bottle trigger",
                 "category" => "equipment",
-                "gallery" => "https://m.media-amazon.com/images/I/71+5RLdZZbL._SX522_.jpg"
+                "gallery" => "https://m.media-amazon.com/images/I/611SU6W3vML._SX679_.jpg"
+            ],
+            [
+                'name' => 'Potash Meal',
+                "price" => "188",
+                "description" => "Potash Meal is a natural and organic fertilizer, made by processing agricultural waste, to achieve a high level of organic available Potassium",
+                "category" => "fertilizer",
+                "gallery" => "https://m.media-amazon.com/images/I/611SU6W3vML._SX679_.jpg"
             ],
 
 
