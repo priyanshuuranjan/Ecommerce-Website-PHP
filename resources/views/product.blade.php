@@ -53,7 +53,7 @@
             h3 {
                 font-size: 25px;
                 margin: 10px 0;
-                color: #7089b2;
+                color: #465b52;
                 transition: color 0.2s;
             }
 

@@ -34,7 +34,9 @@
     }
 
     img.slider-img {
-        height: 400px !important
+        height: 400px !important;
+        margin-top: 20px;
+        margin-left: 20px;
     }
 
     .custom-product {
