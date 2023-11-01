@@ -32,6 +32,9 @@ Route::get('/about', function () {
 Route::get('/error', function () {
     return view('error');
 });
+Route::get('/contact', function () {
+    return view('contact');
+});
 
 Route::view("/register", 'register');
 
