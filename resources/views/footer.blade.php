@@ -11,22 +11,19 @@
 
 <body>
     <section id="newsletter" class="section-p1 section-m1" style="clear: both">
-        <div class="newstext">
-            <h4>Sign Up For Newsletters</h4>
-            <p>
-                Get E-mail updates about out latest pose and
-                <span>special offers.</span>
+        <div style="text-align: center; margin-left: 60em;">
+            <p style="font-size: 20px;">
+                <span>Thank You,</span><br>
+                Do Visit Us Again
             </p>
         </div>
-        <div class="form">
-            <input type="text" placeholder="Your email address" />
-            <button class="normal">Sign Up</button>
-        </div>
+
+
     </section>
     <footer class="section-p1">
         <div class="col">
             <img class="logoo" src="assets/blogo.png" alt="" />
-            <h4>Contect</h4>
+            <h4><strong>Contect</strong></h4>
             <p><strong>Address:</strong> Sapahi, Turkauliya, Motihari</p>
             <p><strong>Phone:</strong> 6299908913</p>
             <p><strong>Working Days:</strong> 10:00 - 18:00, Mon - Sat</p>
@@ -44,15 +41,15 @@
             </div>
         </div>
         <div class="col">
-            <h4>About</h4>
-            <a href="About.html">About us</a>
-            <a href="error.html">Delivery Information</a>
+            <h4><strong>About</strong></h4>
+            <a href="/about">About us</a>
+            <a href="/myorders">Delivery Information</a>
             <a href="error.html">Privacy Policy</a>
             <a href="error.html">Term & Conditions</a>
-            <a href="error.html">Contect Us</a>
+            <a href="/contect">Contect Us</a>
         </div>
         <div class="col">
-            <h4>My Account</h4>
+            <h4><strong>My Account</strong></h4>
             <a href="error.html">Sign In</a>
             <a href="error.html">View Cart</a>
             <a href="error.html">My Wishlist</a>
@@ -60,7 +57,7 @@
             <a href="error.html">Help Me</a>
         </div>
         <div class="col install">
-            <h4>Install App</h4>
+            <h4><strong>Install App</strong></h4>
             <p>From App Store or Google Play</p>
             <div class="row">
                 <img src="app.jpg" alt="" />
