@@ -62,7 +62,7 @@
                        <div class="content_box_404">
                            <h3 class="h2">Looks Like You're Lost</h3>
                            <p>The page you are looking for not available, We are working on it.</p>
-                           <a href="index.html">Go to Home</a>
+                           <a href="/">Go to Home</a>
                        </div>
                    </div>
                </div>

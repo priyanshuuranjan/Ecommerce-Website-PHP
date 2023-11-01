@@ -53,7 +53,7 @@
             <a href="/login">Sign In</a>
             <a href="/cartlist">View Cart</a>
             <a href="/myorders">Track My Order</a>
-            <a href="error.html">Help Me</a>
+            <a href="/error">Help Me</a>
         </div>
         <div class="col install">
             <h4><strong>Install App</strong></h4>

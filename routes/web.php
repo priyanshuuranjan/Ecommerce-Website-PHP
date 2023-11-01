@@ -29,6 +29,9 @@ Route::get('/logout', function () {
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/error', function () {
+    return view('error');
+});
 
 Route::view("/register", 'register');
 
