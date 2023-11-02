@@ -9,7 +9,7 @@ if (Session::has('user')) {
 
 
 <section id="header">
-    <a href="/"> <img src="/mylogo2.png" class="logoo" alt=""/></a>
+    <a href="/"> <img src="/mylogo2.png" class="logoo" alt="" /></a>
 
     <div>
         <ul id="navbar">
@@ -18,7 +18,11 @@ if (Session::has('user')) {
             <li><a href="about">About Me</a></li>
             <li><a href="/contact">Contact</a></li>
             <li>
-                <a href="/cartlist"><i class="fa fa-duotone fa-bag-shopping">{{ $total }}</i></a>
+                <a href="/cartlist">
+                    <i class="fa-solid fa-cart-shopping fa-shake fa-2xl"></i>
+                    <span style="font-size: 2rem;">{{ $total }}</span>
+                </a>
+
                 @if (Session::has('user'))
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{ Session::get('user')['name'] }}
