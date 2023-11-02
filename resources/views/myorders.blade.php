@@ -57,12 +57,7 @@
             My orders
         </h2>
         <div class="custom-product">
-            <h2>
-                <a href="/" style="font-size: 24px; text-decoration: none; color: #7089b2;">
-                    <i class="fa-solid fa-arrow-left fa-bounce fa-2xl" style="color: #385d9f;"></i>
-                </a>
-                My orders
-            </h2>
+
             <div class="col-sm-10">
                 <div class="trending-wrapper">
 
@@ -75,7 +70,7 @@
                                 </a>
                             </div>
                             <div class="col-sm-4">
-                                <div class="">
+                                <div>
                                     <h2>Name: {{ $item->name }}</h2>
                                     <h5>Delivery Status: {{ $item->status }}</h5>
                                     <h5>Address: {{ $item->address }}</h5>
